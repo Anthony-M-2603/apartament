@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+header {
+    background-color: black;
+    height: 10vh;
+    text-align: center;
+    font-size: 2vh;
+    padding: 2vh 0;
+    color: white;
+}
+aside {
+    background-color:rgb(187, 173, 156);
+    width: 20%;
+    height: 85vh;
+    float: left;
+}
+nav {
+    background-color: lightcoral;
+    font-size: 3vh;
+    padding: 1vh 0;
+    width: 80%;
+    height: 6vh;
+    float: right;
+}
+nav span {
+    padding-left: 2vh;
+}
+main {
+    width: 80%;
+    height: 79vh;
+    padding: 10px;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+footer {
+    background-color: black;
+    height: 5vh;
+    padding: 1vh 2vh 1vh 0;
+    color: white;
+    text-align: right;
+    clear: both;
+}
+footer a {
+    color: white;
+}
+footer a:visited {
+    color: white;
+}
+
+/* Układ dla telefonów i mniejszych ekranów*/
+@media (max-width: 768px) {
+    
+}
