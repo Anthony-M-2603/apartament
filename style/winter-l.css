@@ -6,6 +6,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: lightblue;
+    overflow: hidden;
 }
 header { /* height: 8vh */
     background-color: white;
@@ -91,9 +92,9 @@ footer a:visited {
     header {
         box-shadow: 0px 2px 5px blue;
         font-size: 1.6vh;
-        padding: 0.5vh;
+        padding: 2%;
         letter-spacing: 0;
-        height: 6vh;
+        height: 12vh;
     }
     aside {
         display: none;
@@ -120,7 +121,7 @@ footer a:visited {
         color: lightgray;
     }
     main {
-        height: 80vh;
+        height: 70vh;
         margin: 1vh 5% 2vh;
         border-radius: 10px;
         box-shadow: 2px 2px 10px blue;
@@ -129,5 +130,6 @@ footer a:visited {
     }
     footer {
         text-align: center;
+        height: 10vh;
     }
 }
