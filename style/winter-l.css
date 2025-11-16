@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+}
+header { /* height: 8vh */
+    background-color: white;
+    color: darkblue;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 2px 20px blue;
+    text-align: center;
+    font-size: 2.6vh;
+    letter-spacing: 2px;
+    opacity: 0.75;
+    height: 8vh;
+}
+aside { /* height: 88vh */
+    background-color: white;
+    opacity: 0.6;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px lightgray;
+    margin: 2vh 1vh 2vh 0;
+    width: 20%;
+    height: 84vh;
+    color: darkblue;
+    padding: 1vh 0 1vh 2vh;
+    float: left;
+}
+aside h1 {
+    text-align: center;
+}
+aside a:visited {
+    color: darkblue;
+}
+nav { /* height: 7vh */
+    background-color: white;
+    box-shadow: 0px 2px 5px lightgray;
+    font-size: 2vh;
+    font-weight: bold;
+    word-spacing: 4vh;
+    opacity: 0.7;
+    border-radius: 10px 0 0 10px;
+    padding: 1vh 4vh;
+    height: 5vh;
+    margin: 1vh 0 1vh 0;
+    color: blue;
+    float: right;
+}
+nav a:visited {
+    color: blue;
+}
+nav a:hover {
+    color: darkblue;
+    cursor: pointer;
+    font-weight: 400;
+}
+main { /* height: 71vh */
+    background-color: white;
+    height: 76vh;
+    margin: 1vh 1vh 0 0;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 4px 4px 20px blue;
+    opacity: 0.9;
+    width: 76%;
+    float: right;
+    overflow-y: scroll;
+    scrollbar-color: blue lightgray;
+    scrollbar-width: thin;
+}
+footer {
+    background-color: white;
+    color: darkblue;
+    height: 4vh;
+    font-size: 2vh;
+    padding: 0.5vh 2vh;
+    box-shadow: 0px -2px 5px lightgray;
+    text-align: right;
+    font-weight: bold;
+    clear: both;
+}
