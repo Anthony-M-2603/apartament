@@ -82,3 +82,52 @@ footer {
     font-weight: bold;
     clear: both;
 }
+footer a:visited {
+    color: darkblue;
+}
+
+/* Układ dla telefonów*/
+@media (max-width: 768px) {
+    header {
+        box-shadow: 0px 2px 5px blue;
+        font-size: 1.6vh;
+        padding: 0.5vh;
+        letter-spacing: 0;
+        height: 6vh;
+    }
+    aside {
+        display: none;
+    }
+    nav {
+        background-color: blue;
+        border-radius: 10px;
+        padding: 1vh 4vh;
+        height: 5vh;
+        margin: 1vh 10% 1vh 0;
+        width: 80%;
+        color: white;
+        text-align: center;
+        word-spacing: 1vh;
+        float: right;
+    }
+    nav a {
+        color: white;
+    }
+    nav a:visited {
+        color: white;
+    }
+    nav a:hover {
+        color: lightgray;
+    }
+    main {
+        height: 80vh;
+        margin: 1vh 5% 2vh;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px blue;
+        width: 90%;
+        scrollbar-width: none;
+    }
+    footer {
+        text-align: center;
+    }
+}
